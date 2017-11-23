@@ -50,8 +50,8 @@ public class QuartzTriggerConfig {
 
     private Map<String, TriggerBean> getTriggers() {
         Map<String, TriggerBean> map = new HashMap<String, TriggerBean>();
-        //map.put("testJobSimpleTrigger", testJobSimpleTrigger());
-        //map.put("testJobCronTrigger", testJobCronTrigger());
+        map.put("testJobSimpleTrigger", testJobSimpleTrigger());
+        map.put("testJobCronTrigger", testJobCronTrigger());
         return map;
     }
 
